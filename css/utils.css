@@ -1,0 +1,7 @@
+.start-hidden {
+  display: none !important;
+}
+
+[data-component-link] {
+  cursor: pointer;
+}

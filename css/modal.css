@@ -1,0 +1,244 @@
+.modal {
+  background: radial-gradient(124.05% 124.05% at 50% -28.37%, rgba(137, 86, 68, 0.8) 0%, rgba(0, 0, 0, 0.8) 52.93%);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+}
+
+.modal-close {
+  top: 32px;
+  right: 32px;
+  font-size: 24px;
+  color: #84756E;
+  border: none;
+  position: absolute;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+.modal-content {
+  border: none;
+  text-align: center;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
+  background-color: transparent;
+}
+
+.modal-content .title {
+  font-size: 20px !important;
+  font-weight: 500;
+  line-height: 138%;
+  margin-bottom: 40px;
+  color: #F4F3F2;
+}
+
+.modal-content .form-control:focus {
+  box-shadow: none;
+  background-color: rgba(26, 22, 22, 1);
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  color: #fff;
+}
+
+.modal-content label {
+  font-size: 16px !important;
+  color: var(--color-text-primary) !important;
+}
+
+.modal-content .form-floating>label {
+  padding: 1rem 1.5rem !important;
+}
+
+.modal-content input {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  height: 72px !important;
+  border-radius: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(26, 22, 22, 1);
+  padding: 16px 32px !important;
+  width: 100% !important;
+}
+
+.iti {
+  display: block;
+}
+
+.iti__search-input {
+  display: none !important;
+}
+
+.form-floating #phone {
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  width: 100% !important;
+  padding-left: 112px !important;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.modal-content input::placeholder {
+  color: #84756E !important;
+}
+
+.iti__country-container {
+  padding-left: 24px !important;
+}
+
+#iti-0__dropdown-content {
+  background-color: #141210;
+  border: none;
+  border-radius: 8px;
+}
+
+.iti__country-name, .iti__selected-dial-code {
+  color: #F4F3F2;
+  font-size: 16px;
+}
+
+.modal-info {
+  font-size: 12px;
+  line-height: 149%;
+  font-weight: 500;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6F635F;
+}
+
+/* Modal Termos de Uso */
+.custom-modal-content {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: -8px 27px 44.5px 0px rgba(0, 0, 0, 0.78);
+  -webkit-backdrop-filter: blur(60px);
+  backdrop-filter: blur(60px);
+  max-height: 80vh; 
+  overflow-y: scroll !important; 
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.modal {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px) !important;
+}
+
+#modal-pre-checkout {
+  padding: 24px;
+}
+
+.modal-content-inner {
+  padding: 20px !important;
+}
+
+.custom-modal-content p {
+  text-align: left;
+  color: rgba(171, 160, 153, 1);
+  font-size: 18px;
+}
+
+.modal-backdrop {
+  background: linear-gradient(160.5deg, #0E0F0F -28.35%, rgba(0, 0, 0, 0.05) 78.95%);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.modal-header {
+  border-bottom: 1px solid #333;
+}
+
+.modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal-body {
+  line-height: 1.6;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .modal-content h2 {
+    font-size: 20px !important
+  }
+
+  .modal-content small {
+    font-size: 12px;
+  }
+
+  .line-1 {
+    line-height: 1
+  }
+
+  .modal-content input.iti__tel-input,
+  .iti ::placeholder,
+  .iti ::-ms-input-placeholder {
+    padding: 1rem 0 1rem 110px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-modal-content {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .modal-body p {
+    font-size: 14px !important;
+  }
+
+  .modal-title {
+    font-size: 18px !important;
+  }
+
+  .modal-content input {
+    color: white;
+    font-size: 16px;
+    height: 56px !important;
+    border-radius: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(26, 22, 22, 1);
+    padding: 16px 24px !important;
+    width: 100% !important;
+  }
+
+  .modal-content {
+    margin-top: 80px;
+  }
+
+  .modal-content .title {
+    font-size: 18px !important;
+  }
+
+  .dollar-right, .dollar-left {
+    display: none;
+  }
+
+
+
+  
+}
+
+@media (max-width: 378px) {
+
+  .iti__country-name, .iti__selected-dial-code {
+    color: #F4F3F2;
+    font-size: 14px;
+  }
+
+  .modal-content input {
+
+    font-size: 14px;
+
+  }
+
+}
+
+.is-invalid #phoneError {
+  display: block !important;
+}
+
+.is-invalid #btn-submit {
+  margin-top: 10px !important;
+}

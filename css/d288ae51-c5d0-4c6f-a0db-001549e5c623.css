@@ -1,0 +1,302 @@
+:root {
+    --style-guide-color-lightest: #FFFFFF;
+    --style-guide-color-light: #FEF9F1;
+    --style-guide-color-colored: #F3F972;
+    --style-guide-color-dark: #363940;
+    --style-guide-color-darkest: #000000;
+    --style-guide-color-headline: #363940;
+    --style-guide-color-subheadline: #363940;
+    --style-guide-color-content: #494B4F;
+    --style-guide-color-link: #3510CA;
+    --style-guide-color-icon: #3510CA;
+}
+
+[data-style-guide-background-color="lightest"] {
+    background-color: #FFFFFF
+}
+
+[data-style-guide-background-color="light"] {
+    background-color: #FEF9F1
+}
+
+[data-style-guide-background-color="colored"] {
+    background-color: #F3F972
+}
+
+[data-style-guide-background-color="dark"] {
+    background-color: #363940
+}
+
+[data-style-guide-background-color="darkest"] {
+    background-color: #000000
+}
+
+[data-style-guide-typography-headline]:not(a):not(button) {
+    font-family: "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: normal;
+    color: var(--style-guide-color-headline)
+}
+
+[data-style-guide-typography-headline='small'] {
+    font-size: 32px;
+}
+
+[data-style-guide-typography-headline='medium'] {
+    font-size: 40px;
+}
+
+[data-style-guide-typography-headline='large'] {
+    font-size: 56px;
+}
+
+[data-style-guide-typography-headline='extraLarge'] {
+    font-size: 72px;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-typography-headline] {
+        line-height: 100%;
+        letter-spacing: normal;
+    }
+
+    [data-style-guide-typography-headline='small'] {
+        font-size: 32px;
+    }
+
+    [data-style-guide-typography-headline='medium'] {
+        font-size: 32px;
+    }
+
+    [data-style-guide-typography-headline='large'] {
+        font-size: 40px;
+    }
+
+    [data-style-guide-typography-headline='extraLarge'] {
+        font-size: 48px;
+    }
+}
+
+[data-style-guide-typography-subheadline]:not(a):not(button) {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: normal;
+    color: var(--style-guide-color-subheadline)
+}
+
+[data-style-guide-typography-subheadline='small'] {
+    font-size: 24px;
+}
+
+[data-style-guide-typography-subheadline='medium'] {
+    font-size: 32px;
+}
+
+[data-style-guide-typography-subheadline='large'] {
+    font-size: 40px;
+}
+
+[data-style-guide-typography-subheadline='extraLarge'] {
+    font-size: 48px;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-typography-subheadline] {
+        line-height: 100%;
+        letter-spacing: normal;
+    }
+
+    [data-style-guide-typography-subheadline='small'] {
+        font-size: 24px;
+    }
+
+    [data-style-guide-typography-subheadline='medium'] {
+        font-size: 24px;
+    }
+
+    [data-style-guide-typography-subheadline='large'] {
+        font-size: 32px;
+    }
+
+    [data-style-guide-typography-subheadline='extraLarge'] {
+        font-size: 40px;
+    }
+}
+
+[data-style-guide-typography-content]:not(a):not(button) {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: normal;
+    color: var(--style-guide-color-content)
+}
+
+[data-style-guide-typography-content='small'] {
+    font-size: 14px;
+}
+
+[data-style-guide-typography-content='medium'] {
+    font-size: 16px;
+}
+
+[data-style-guide-typography-content='large'] {
+    font-size: 24px;
+}
+
+[data-style-guide-typography-content='extraLarge'] {
+    font-size: 32px;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-typography-content] {
+        line-height: 100%;
+        letter-spacing: normal;
+    }
+
+    [data-style-guide-typography-content='small'] {
+        font-size: 14px;
+    }
+
+    [data-style-guide-typography-content='medium'] {
+        font-size: 16px;
+    }
+
+    [data-style-guide-typography-content='large'] {
+        font-size: 24px;
+    }
+
+    [data-style-guide-typography-content='extraLarge'] {
+        font-size: 32px;
+    }
+}
+
+[data-style-guide-shadow='style1'] {
+    box-shadow: 0px 0px 16px 2px #00000026;
+}
+
+[data-style-guide-shadow='style2'] {
+    box-shadow: 0px 0px 36px 4px #00000026;
+}
+
+[data-style-guide-shadow='style3'] {
+    box-shadow: 0px 8px 90px 4px #00000026;
+}
+
+[data-style-guide-border='style1'] {
+    border-style: solid;
+    border-color: #E8EBF1;
+    border-width: 1px;
+}
+
+[data-style-guide-border='style2'] {
+    border-style: solid;
+    border-color: #B7C2D2;
+    border-width: 2px;
+}
+
+[data-style-guide-border='style3'] {
+    border-style: solid;
+    border-color: #D7DDE6;
+    border-width: 1px;
+}
+
+[data-style-guide-corner="style1"] {
+    border-radius: 500px;
+}
+
+[data-style-guide-corner="style2"] {
+    border-radius: 16px;
+}
+
+[data-style-guide-corner="style3"] {
+    border-radius: 48px;
+}
+
+[data-style-guide-button="style1"] {
+    border-radius: 500px;
+    background-color: #3510ca;
+    color: #FFF;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+[data-style-guide-button="style1"]:hover {
+    background-color: #3510ca;
+    color: #FFF;
+}
+
+[data-style-guide-button="style1"]:active {
+    background-color: #3510ca;
+    color: #FFF;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-button="style1"] {
+        font-size: 16px;
+    }
+}
+
+[data-style-guide-button="style2"] {
+    border-radius: 500px;
+    background-color: #3510ca;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+[data-style-guide-button="style2"]:hover {
+    background-color: #3510ca;
+    color: #ffffff;
+}
+
+[data-style-guide-button="style2"]:active {
+    background-color: #3510ca;
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-button="style2"] {
+        font-size: 16px;
+    }
+}
+
+[data-style-guide-button="style3"] {
+    border-style: solid;
+    border-color: #111111;
+    border-width: 1px;
+    border-radius: 500px;
+    background-color: transparent;
+    color: #606802;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+[data-style-guide-button="style3"]:hover {
+    background-color: transparent;
+    color: #606802F;
+}
+
+[data-style-guide-button="style3"]:active {
+    background-color: transparent;
+    color: #111111;
+}
+
+@media (max-width: 480px) {
+    [data-style-guide-button="style3"] {
+        font-size: 16px;
+    }
+}
