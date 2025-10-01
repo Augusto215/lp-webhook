@@ -16,7 +16,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 app.use(express.json());
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Middleware de log para debug
 app.use((req, res, next) => {
@@ -556,7 +556,7 @@ function updateStoredPaymentStatus(paymentId, statusObj) {
 
 // Rota principal
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'novo.html'));
+  res.sendFile(path.join(__dirname, 'public', 'novo.html'));
 });
 
 // Criar pagamento
